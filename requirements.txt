@@ -4,8 +4,8 @@ eventlet==0.33.3
 python-dotenv==1.0.1
 langchain==0.1.14
 langchain-community==0.0.31
-langchain-huggingface
+langchain-huggingface==0.1.2  # Latest available version
 transformers==4.38.2
 torch==2.2.1
 numpy==1.26.4
-gunicorn==21.2.0  # Needed for deployment on cloud platforms
+gunicorn==21.2.0
