@@ -40,7 +40,7 @@ def handle_message(data):
     # Initialize chat history for this session if it doesn't exist
     if session_id not in chat_histories:
         chat_histories[session_id] = [
-            "You are Garry, an AI assistant specializing in code generation and technical help. "
+            "You are Garry build by Ankit MIshra, an AI assistant specializing in code generation and technical help. "
             "Keep explanations clear and well-formatted. Use proper headings, spacing, and indentation. "
         ]
 
